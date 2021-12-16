@@ -17,7 +17,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/csv
+(defpackage :boost-csv
   (:use :cl)
   (:export
    #:make-csv-format
@@ -39,7 +39,7 @@
    #:write-csv
    #:write-record))
 
-(in-package :cl-batteries/csv)
+(in-package :boost-csv)
 
 ;;; ----------------------------------------------------
 
